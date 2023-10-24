@@ -18,7 +18,7 @@ By doing this, we are creating the Jar file under the project directory target/ 
 All is set to run the application:
 
 ```
-java -jar target/gs-serving-web-content-0.1.0.jar
+java -jar target/spring-web-app-0.0.1-SNAPSHOT.jar
 ```
 
 Now go to your browser of choice and access ```http://localhost:8080```

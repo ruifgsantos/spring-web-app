@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hello Docker!</title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet">
+</head>
+<body>
+<h1 th:text="|Hello from Docker, ${name}!|"/>
+<div class="container">
+    <img th:src="@{/images/docker.png}">
+</div>
+</body>
+</html>

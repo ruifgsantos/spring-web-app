@@ -7,10 +7,10 @@ The app has 3 interations:
 
 In order to run the application, you must execute the following commands. Make sure to have Java installed in your computer.
 
-Firstly, we will build an executable Java Jar file with all aplication files inside:
+Firstly, we will build an executable Java Jar file with all aplication files inside and dependencies:
 
 ```
-./mvnw clean package
+./mvnw clean install package
 ```
 
 By doing this, we are creating the Jar file under the project directory target/ (this directory did not exist prior the execution of the command).

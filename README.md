@@ -3,7 +3,7 @@ Sample web app using Java SpringBoot framework.
 The app has 3 interations:
 - Accessing the root path (http://localhost:8080/) to display a simple HTML page with an image and a text;
 - Accessing the root path with a variable (http://localhost:8080/MyName) to display the same home page but with a twist;
-- Accessing a different path (http://localhost:8080/home) to display a message.
+- Accessing a different path (http://localhost:8080/home/message) to display a message.
 
 In order to run the application, you must execute the following commands. Make sure to have Java installed in your computer.
 
